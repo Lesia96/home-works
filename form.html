@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Реєстрація</legend>
+            <p>
+                <label>
+                    Ваше ім'я:*
+                    <input type="text" name="name">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Телефон:*
+                    <input type="tel" name="phone">
+                </label>
+            </p>
+            <p>
+                <label>
+                    E-mail:*
+                    <input type="email" name="email">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Password:*
+                    <input type="password" name="Password">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Підбір рейсу</legend>
+            <p>
+                <label>
+                    Звідки:
+                    <select name="from where">
+                        <option value="Kiev" selected>Київ</option>
+                        <option value="Lviv">Львів</option>
+                        <option value="Khmelnitskiy">Хмельницький</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Куди:
+                    <select name="to where">
+                        <option value="Kiev" selected>Київ</option>
+                        <option value="Lviv">Львів</option>
+                        <option value="Khmelnitskiy">Хмельницький</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Туди:
+                    <input type="date" name="there">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Назад:
+                    <input type="date" name="back">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Кількість білетів
+                    <input type="number" name="countticket">
+                </label>
+            </p>
+            <h4>Діти</h4>
+            <p>
+                <label>
+                    <input type="radio" name="children" value="withoutchild" checked>
+                    Без дітей
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="children" value="1 child">
+                    1 дитина
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="children" value="2 child">
+                    2 дитини
+                </label>
+            </p>
+            <h4>Комфорт</h4>
+            <p>
+                <label>
+                    <input type="checkbox" name="place for legs">
+                    Більше місця для ніг
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="food">
+                    Харчування
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="place for bag" checked>
+                    Більше місця для багажу
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="place near window">
+                    Місце у вікна
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="first place">
+                    Місце в першому ряді
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Інформація по страхуванню</legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="place for bag" checked>
+                    Мені потрібна страховка
+                </label>
+            </p>
+            <h4>Загрузіть копію паспорта</h4>
+            <p>
+                <input type="file">
+            </p>
+            <p>
+                <textarea placeholder="Додаткова інформація"></textarea>
+            </p>
+        </fieldset>
+        <input type="submit" value="Відправити">
+        <button type="reset">Очистити</button>
+    </form>
+</body>
+
+</html>
