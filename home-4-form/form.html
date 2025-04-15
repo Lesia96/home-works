@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Form</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<div class="wrap">
 		<form action="#" method="get">
@@ -41,9 +43,16 @@
 					<label>
 						Звідки:
 						<select name="from where">
-							<option value="Kiev" selected>Київ</option>
-							<option value="Lviv">Львів</option>
-							<option value="Khmelnitskiy">Хмельницький</option>
+							<optgroup label="Україна">
+								<option value="Kiev" selected>Київ</option>
+								<option value="Lviv">Львів</option>
+								<option value="Khmelnitskiy">Хмельницький</option>
+							</optgroup>
+							<optgroup label="Польща">
+								<option value="Warsaw">Варшава</option>
+								<option value="Krakow">Краків</option>
+								<option value="Wroclaw">Вроцлав</option>
+							</optgroup>
 						</select>
 					</label>
 				</p>
@@ -51,9 +60,16 @@
 					<label>
 						Куди:
 						<select name="to where">
-							<option value="Kiev" selected>Київ</option>
-							<option value="Lviv">Львів</option>
-							<option value="Khmelnitskiy">Хмельницький</option>
+							<optgroup label="Україна">
+								<option value="Kiev" selected>Київ</option>
+								<option value="Lviv">Львів</option>
+								<option value="Khmelnitskiy">Хмельницький</option>
+							</optgroup>
+							<optgroup label="Польща">
+								<option value="Warsaw">Варшава</option>
+								<option value="Krakow">Краків</option>
+								<option value="Wroclaw">Вроцлав</option>
+							</optgroup>
 						</select>
 					</label>
 				</p>
@@ -147,4 +163,5 @@
 		</form>
 	</div>
 </body>
+
 </html>
