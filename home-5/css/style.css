@@ -75,8 +75,7 @@ button {
     margin-bottom: 10px;
 }
 
-.button-02,
-.button-03 {
+.button-02, .button-03 {
     color: #727272;
     background-color: transparent;
     border: 1px solid #EAEAEA;
