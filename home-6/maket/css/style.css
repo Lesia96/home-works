@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login {
+    background-color: #46A358;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-family: Tahoma, sans-serif;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.menu a {
+    color: #3D3D3D;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    margin-right: 50px;
+    padding-bottom: 40px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #46A358;
+}
+
+.content-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-tittle {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-tittle span {
+    color: #46A358;
+}
+
+.main-page {
+    background-color: #F5F5F580;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-page-left {
+    flex: 1;
+    padding-left: 45px;
+}
+
+.main-page-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-note {
+    color: #727272;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+
+.btn-shop {
+    background-color: #46A358;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-color: transparent;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
